@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="gameStyle.css">
+    <script src="game.js"></script>
+    <script src="apple.js"></script>
+    <script src="bowl.js"></script>
+    <script src="control.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <img id="bowl" src="imgs/bowl.png" alt="no bowl">
+      <img id="apple" src="imgs/apple.png" alt="no apple">
+      <h3 id="score"></h3>
+    </div>
+    <h1 id="gameStatus"></h1>
+    <button id="start" type="button" name="button">Play</button>
+    <button id="restart" type="button" name="button" onclick="startGame()">Restart</button>
+    <button id="pause" type="button" name="button" onclick="pause()">pause</button>
+  </body>
+</html>
